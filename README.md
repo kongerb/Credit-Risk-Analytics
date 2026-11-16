@@ -54,19 +54,7 @@ A lender's core credit question is how likely a borrower is to default. That is 
 6. **Evaluate:** run `classification_report` on the test set (results above).
 7. **Score:** add `Predicted_Risk_Score`, the model's predicted probability of default (0 to 1), to every loan. Loans removed during cleaning are left blank.
 8. **Export:** save `credit_risk_tableau_ready.csv`, which feeds the Tableau dashboard.
-
-Full test-set output:
-
-```
-              precision    recall  f1-score   support
-
-           0       0.92      0.99      0.96      4443
-           1       0.96      0.72      0.82      1285
-
-    accuracy                           0.93      5728
-   macro avg       0.94      0.86      0.89      5728
-weighted avg       0.93      0.93      0.93      5728
-```
+   
 
 ## Dashboard
 
